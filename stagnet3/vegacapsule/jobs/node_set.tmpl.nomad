@@ -154,8 +154,17 @@ locals {
 		reverse_proxy http://localhost:3009
 	}
 
+	# GraphQL Playground (deprecated)
+	route /playground {
+		uri strip_prefix /playground
+		reverse_proxy http://localhost:3008
+	}
 	route /playground/* {
 		uri strip_prefix /playground
+		reverse_proxy http://localhost:3008
+	}
+	# GraphQL (deprecated)
+	route /query {
 		reverse_proxy http://localhost:3008
 	}
 }
