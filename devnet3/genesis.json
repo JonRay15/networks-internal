@@ -204,7 +204,7 @@
       }
     }
   },
-  "chain_id": "vega-devnet3-202209172355",
+  "chain_id": "vega-devnet3-202209180049",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -223,27 +223,9 @@
     },
     "version": {}
   },
-  "genesis_time": "2022-09-17T23:55:41.093698945Z",
+  "genesis_time": "2022-09-18T00:49:59.407232128Z",
   "initial_height": "0",
   "validators": [
-    {
-      "address": "184DA2CC8828EED346118CC55C39C655DBD40680",
-      "name": "Validator n03",
-      "power": "10",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "ludomVxSOWM4avhnQX2UBpIkbvyypH7APlKjSq0LGfU="
-      }
-    },
-    {
-      "address": "1B7CA6598DF12978E508605FDAAE90524742A155",
-      "name": "Validator n04",
-      "power": "10",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "Jq4/J92EL8qCVwbUN6h+GtIn3vm05oBSwO4+ZFx+4oY="
-      }
-    },
     {
       "address": "8A2E15FE19D4404455DA063E3B7B817F2CD136E7",
       "name": "Validator n01",
@@ -260,6 +242,24 @@
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "qww40gxLbEj5LJaZL2fpv/2Ji50s/1chrFMBDN0kb4M="
+      }
+    },
+    {
+      "address": "184DA2CC8828EED346118CC55C39C655DBD40680",
+      "name": "Validator n03",
+      "power": "10",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "ludomVxSOWM4avhnQX2UBpIkbvyypH7APlKjSq0LGfU="
+      }
+    },
+    {
+      "address": "1B7CA6598DF12978E508605FDAAE90524742A155",
+      "name": "Validator n04",
+      "power": "10",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Jq4/J92EL8qCVwbUN6h+GtIn3vm05oBSwO4+ZFx+4oY="
       }
     }
   ]
