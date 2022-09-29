@@ -202,7 +202,7 @@
       }
     }
   },
-  "chain_id": "vega-devnet1-202209291145",
+  "chain_id": "vega-devnet1-202209291342",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -221,7 +221,7 @@
     },
     "version": {}
   },
-  "genesis_time": "2022-09-29T11:45:31.641295875Z",
+  "genesis_time": "2022-09-29T13:42:25.696307786Z",
   "initial_height": "0",
   "validators": [
     {
