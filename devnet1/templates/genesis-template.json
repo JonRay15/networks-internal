@@ -20,7 +20,9 @@
         },
         "version": {}
     },
-    "validators": ["-THIS-WILL-BE-FILLED-IN-"],
+    "validators": [
+        "-THIS-WILL-BE-FILLED-IN-"
+    ],
     "app_state": {
         "assets": {
             "177e8f6c25a955bd18475084b99b2b1d37f28f3dec393fab7755a7e69c3d8c3b": {
@@ -78,6 +80,114 @@
                 },
                 "symbol": "tBTC",
                 "total_supply": "64999723000000000000000000"
+            },
+            "XYZalpha": {
+                "decimals": 5,
+                "name": "XYZ (\u03b1 alpha)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "5000000000"
+                    }
+                },
+                "symbol": "XYZalpha",
+                "total_supply": "100000000000000000000"
+            },
+            "XYZbeta": {
+                "decimals": 5,
+                "name": "XYZ (\u03b2 beta)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "100000000000"
+                    }
+                },
+                "symbol": "XYZbeta",
+                "total_supply": "1000000000"
+            },
+            "XYZdelta": {
+                "decimals": 5,
+                "name": "XYZ (\u03b4 delta)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "100000000000"
+                    }
+                },
+                "symbol": "XYZdelta",
+                "total_supply": "1000000000"
+            },
+            "XYZepsilon": {
+                "decimals": 5,
+                "name": "XYZ (\u03b5 epsilon)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "100000000000"
+                    }
+                },
+                "symbol": "XYZepsilon",
+                "total_supply": "1000000000"
+            },
+            "XYZgamma": {
+                "decimals": 5,
+                "name": "XYZ (\u03b3 gamma)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "100000000000"
+                    }
+                },
+                "symbol": "XYZgamma",
+                "total_supply": "1000000000"
+            },
+            "fBTC": {
+                "decimals": 8,
+                "name": "BTC (fake)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "1000000000"
+                    }
+                },
+                "symbol": "fBTC",
+                "total_supply": "21000000000"
+            },
+            "fDAI": {
+                "decimals": 18,
+                "name": "DAI (fake)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "10000000000000000000000"
+                    }
+                },
+                "symbol": "fDAI",
+                "total_supply": "1000000000000000000000"
+            },
+            "fEURO": {
+                "decimals": 5,
+                "name": "EURO (fake)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "10000000000"
+                    }
+                },
+                "symbol": "fEURO",
+                "total_supply": "1000000000"
+            },
+            "fUSDC": {
+                "decimals": 6,
+                "name": "USDC (fake)",
+                "quantum": "1",
+                "source": {
+                    "builtin_asset": {
+                        "max_faucet_amount_mint": "10000000000000"
+                    }
+                },
+                "symbol": "fUSDC",
+                "total_supply": "10000000000"
             },
             "fc7fd956078fb1fc9db5c19b88f0874c4299b2a7639ad05a47a28c0aef291b55": {
                 "decimals": 18,
